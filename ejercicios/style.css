@@ -5,9 +5,10 @@
     box-sizing: border-box;
 }
 
-.neones{
+.neones
+{
     margin: 50px 0;
-    width: 220px;
+    width: 250px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,13 +17,14 @@
     background: #010807;
 }
 
-.neones a{
+.neones a
+{
     position: relative;
     display: inline-block;
-    padding: 1px 60px;
+    padding: 5px 60px;
     margin: 25px 0;
     color: #03e9f4;
-    font-size: 10px;
+    font-size: 18px;
     text-decoration: none;
     text-transform: uppercase;
     overflow: hidden;
@@ -31,31 +33,38 @@
     -webkit-box-reflect: below 0.1px linear-gradient(transparent, #0005);
 }
 
-.neones a:nth-child(1){
+.neones a:nth-child(1)
+{
     filter: hue-rotate(60deg);
 }
 
-.neones a:nth-child(2){
+.neones a:nth-child(2)
+{
     filter: hue-rotate(120deg);
 }
 
-.neones a:nth-child(3){
+.neones a:nth-child(3)
+{
     filter: hue-rotate(180deg);
 }
 
-.neones a:nth-child(4){
+.neones a:nth-child(4)
+{
     filter: hue-rotate(240deg);
 }
 
-.neones a:nth-child(5){
+.neones a:nth-child(5)
+{
     filter: hue-rotate(300deg);
 }
 
-.neones a:nth-child(6){
+.neones a:nth-child(6)
+{
     filter: hue-rotate(360deg);
 }
 
-.neones a:hover {
+.neones a:hover 
+{
     background: #03e9f4;
     color: #010807;
     box-shadow: 0 0 5px #03e9f4,
@@ -64,8 +73,106 @@
                 0 0 200px #03e9f4,
 }
 
-.neones a span{
+.neones a span
+{
     position: absolute;
     display: block;
 }
 
+.neones a span:nth-child(1) 
+{
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #03e9f4);
+    animation: animate1 2s linear infinite;
+}
+
+@keyframes animate1 
+{
+    0%
+    {
+        left: -100%;
+    }
+
+    50%, 100%
+    {
+        left: 100%;
+    }
+}
+
+//2
+.neones a span:nth-child(2) 
+{
+    top: -100;
+    right: 0%;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, #03e9f4);
+    animation: animate2 2s linear infinite;
+    animation-delay: 0.5s;
+}
+
+@keyframes animate2
+{
+    0%
+    {
+        top: -100%;
+    }
+
+    50%, 100%
+    {
+        top: 100%;
+    }
+}
+
+//3
+.neones a span:nth-child(3) 
+{
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg, transparent, #03e9f4);
+    animation: animate3 2s linear infinite;
+    animation-delay: 1s;
+}
+
+@keyframes animate3 
+{
+    0%
+    {
+        right: -100%;
+    }
+
+    50%, 100%
+    {
+        right: 100%;
+    }
+}
+
+//4
+.neones a span:nth-child(4) 
+{
+    bottom: -100%;
+    left: 0%;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg, transparent, #03e9f4);
+    animation: animate4 2s linear infinite;
+    animation-delay: 1.5s;
+}
+
+@keyframes animate4
+{
+    0%
+    {
+        bottom: -100%;
+    }
+
+    50%, 100%
+    {
+        bottom: 100%;
+    }
+}
