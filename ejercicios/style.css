@@ -89,7 +89,7 @@
     animation: animate1 2s linear infinite;
 }
 
-@keyframes animate1 
+@keyframes animate1
 {
     0%
     {
@@ -139,7 +139,7 @@
     animation-delay: 1s;
 }
 
-@keyframes animate3 
+@keyframes animate3
 {
     0%
     {
