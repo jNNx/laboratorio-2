@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: 'Montserrat';
+            text-transform: uppercase;
+            text-decoration: none;
+        }
+
+        header 
+        {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            background-color: rgb(245, 192, 123);
+            box-shadow: 0 5px 10px rgba(0, 0, 0, .1);
+            padding: 0px 7%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        header img
+        {
+            width: 7%;
+            aspect-ratio: 3/2;
+            object-fit: contain;
+            mix-blend-mode: darken;
+        }
+
+        header .navbar ul 
+        {
+            list-style: none;
+        }
+
+        header .navbar ul li 
+        {
+            position: relative;
+            float: left;
+        }
+
+        header .navbar ul li a 
+        {
+            font-size: 20px;
+            padding: 20px;
+            color: #333;
+            display: block;
+        }
+
+        header .navbar ul li a:hover 
+        {
+            background: #333;
+            color: #fff;
+        }
+
+        header .navbar ul li ul 
+        {
+            position: absolute;
+            left: 0;
+            width: 200px;
+            background: #fff;
+            display: none;
+        }
+
+        header .navbar ul li ul li 
+        {
+            width: 100%;
+            border-top: 1px solid rgba(0, 0, 0, .1);
+        }
+
+        header .navbar ul li:focus-within>ul,
+        header .navbar ul li:hover>ul {
+            display: initial;
+        }
+    </style>
+    <title>Principal</title>
+</head>
+
+<body>
+    <header>
+        <img src="https://scontent.fcnq2-1.fna.fbcdn.net/v/t39.30808-6/304975258_442769764539484_2584552563041886811_n.png?_nc_cat=105&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=hVXBzWLHkNkAX-w6LX4&_nc_oc=AQmDJ3u1J--lDDCTXELJjGeHY44e41aB7ThEtziwDTr7ns6RbbER7VJmXRbG0xZ3Bzk&_nc_ht=scontent.fcnq2-1.fna&oh=00_AfCyO_qs9PZnLtwJdpKufz9UIrHOifZVLquNQkBTNp0gLA&oe=6486BC68" 
+            alt="logollano">
+        <nav class="navbar">
+            <ul>
+                <li><a href="../index.php">Inicio</a></li>
+                <li><a href="#">Ej 1 - 12</a>
+                    <ul>
+                        <li><a href="./php/ej1.php">ej1</a></li>
+                        <li><a href="ej2.php">ej2</a></li>
+                        <li><a href="ej3.php">ej3</a></li>
+                        <li><a href="ej4.php">ej4</a></li>
+                        <li><a href="ej5.php">ej5</a></li>
+                        <li><a href="ej6.php">ej6</a></li>
+                        <li><a href="ej7.php">ej7</a></li>
+                        <li><a href="ej8.php">ej8</a></li>
+                        <li><a href="ej9.php">ej9</a></li>
+                        <li><a href="ej10.php">ej10</a></li>
+                        <li><a href="ej11.php">ej11</a></li>
+                        <li><a href="ej12.php">ej12</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Ej 13 - 24</a>
+                    <ul>
+                        <li><a href="#">ej13</a></li>
+                        <li><a href="#">ej14</a></li>
+                        <li><a href="#">ej15</a></li>
+                        <li><a href="#">ej16</a></li>
+                        <li><a href="#">ej17</a></li>
+                        <li><a href="#">ej18</a></li>
+                        <li><a href="#">ej19</a></li>
+                        <li><a href="#">ej20</a></li>
+                        <li><a href="#">ej21</a></li>
+                        <li><a href="#">ej22</a></li>
+                        <li><a href="#">ej23</a></li>
+                        <li><a href="#">ej24</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+</body>
+
+</html>

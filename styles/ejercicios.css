@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600&display=swap');
+*
+{
+    font-family: 'Montserrat';
+}
+
+body {
+    min-height: 92.7vh;
+    padding-top: 85px;
+    position: relative;
+    background-color: antiquewhite;
+}
+
+form
+{
+    border-style: double;
+    border-radius: 5px;
+    text-align: center;
+    padding: 25px;
+}
+
+form h2
+{
+    text-decoration: underline 2px;
+}
+
+form input
+{
+    background-color: aliceblue;
+}
+
+form button
+{
+    background-color: rgb(73, 141, 204);
+    text-transform: uppercase;
+    color: aliceblue;
+    padding: 5px;
+}
+
