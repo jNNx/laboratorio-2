@@ -10,15 +10,15 @@
 </head>
 <body>
 
-        <?php include('../navbar.html'); ?>
+        <?php include('../navbar-2.html'); ?>
         <form action="../php/ej1.php" method="post">
             <h2>Hallar A+B-C+100</h2>
             <h3>Ingrese un numero A</h3>
-            <input type="number" name="numeroA">
+            <input type="number" name="numeroA" placeholder="Numero 1">
             <h3>Ingrese un numero B</h3>
-            <input type="number" name="numeroB">
+            <input type="number" name="numeroB" placeholder="Numero 2">
             <h3>Ingrese un numero C</h3>
-            <input type="number" name="numeroC">
+            <input type="number" name="numeroC" placeholder="Numero 3">
             <br><br>
             <button type="submit">Enviar</button>
             <br><br>

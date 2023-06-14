@@ -8,13 +8,13 @@
     <title>Ejercicio - 4</title>
 </head>
 <body>
-    <?php include('../navbar.html'); ?>
+    <?php include('../navbar-2.html'); ?>
     <form action="../php/ej4.php" method="post">
         <h2>Dados dos numeros, mostrar su producto</h2>
         <h3>Ingrese el primer numero</h3>
-        <input type="number" name="numeroA">
+        <input type="number" name="numeroA" placeholder="Numero 1">
         <h3>Ingrese el segundo numero</h3>
-        <input type="number" name="numeroB">
+        <input type="number" name="numeroB" placeholder="Numero 2">
         <br>
         <br>
         <button type="submit">Enviar</button>

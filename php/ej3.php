@@ -8,11 +8,11 @@
     <title>Ejercicio - 3</title>
 </head>
 <body>
-    <?php include('../navbar.html'); ?>
+    <?php include('../navbar-2.html'); ?>
     <form action="../php/ej3.php" method="post">
         <h2>Dado un numero positivo, mostrar su opuesto</h2>
         <h3>Ingrese un número</h3>
-        <input type="number" name="numero">
+        <input type="number" name="numero" placeholder="Numero">
         <br>
         <br>
         <button type="submit">Enviar</button>

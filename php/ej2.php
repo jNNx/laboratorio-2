@@ -8,13 +8,13 @@
     <title>Ejercicio - 2</title>
 </head>
 <body>
-    <?php include('../navbar.html'); ?>
-    <form action="../php/ej1.php" method="post">
+    <?php include('../navbar-2.html'); ?>
+    <form action="../php/ej2.php" method="post">
         <h2>Obtener (a - b) * (a + b)</h2>
         <h3>Ingrese un numero A</h3>
-        <input type="number" name="numeroA">
+        <input type="number" name="numeroA" placeholder="Numero 1">
         <h3>Ingrese un numero B</h3>
-        <input type="number" name="numeroB">
+        <input type="number" name="numeroB" placeholder="Numero 2">
         <br>
         <br>
         <button type="submit">Enviar</button>
