@@ -11,12 +11,13 @@
     <?php include('../navbar-2.html'); ?>
     <form action="../php/ej2.php" method="post">
         <h2>Obtener (a - b) * (a + b)</h2>
+        <br>
         <h3>Ingrese un numero A</h3>
         <input type="number" name="numeroA" placeholder="Numero 1">
+        <br><br>
         <h3>Ingrese un numero B</h3>
         <input type="number" name="numeroB" placeholder="Numero 2">
-        <br>
-        <br>
+        <br><br>
         <button type="submit">Enviar</button>
         <br><br>
         

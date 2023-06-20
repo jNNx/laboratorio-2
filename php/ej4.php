@@ -11,12 +11,13 @@
     <?php include('../navbar-2.html'); ?>
     <form action="../php/ej4.php" method="post">
         <h2>Dados dos numeros, mostrar su producto</h2>
+        <br>
         <h3>Ingrese el primer numero</h3>
         <input type="number" name="numeroA" placeholder="Numero 1">
+        <br><br>
         <h3>Ingrese el segundo numero</h3>
         <input type="number" name="numeroB" placeholder="Numero 2">
-        <br>
-        <br>
+        <br><br>
         <button type="submit">Enviar</button>
         <br>
         <br>

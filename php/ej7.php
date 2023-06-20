@@ -14,8 +14,10 @@
         <br>
         <h3>Ingrese un numero A</h3>
         <input type="number" name="numeroA" placeholder="Lado 1">
+        <br><br>
         <h3>Ingrese un numero B</h3>
         <input type="number" name="numeroB" placeholder="Lado 2">
+        <br><br>
         <h3>Ingrese un numero C</h3>
         <input type="number" name="numeroC" placeholder="Lado 3">
         <br><br>
