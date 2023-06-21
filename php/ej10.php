@@ -11,8 +11,9 @@
     <?php include('../navbar-2.html'); ?>
     <form action="../php/ej10.php" method="post">
         <h2>Calcular el costo de una llamada en minutos.</h2>
+        <br>
         <h3>Ingrese la duracion de la llamada en minutos.</h3>
-        <input type="number" name="numeroA">
+        <input type="number" name="numeroA" placeholder="Duracion">
         <br><br>
         <button type="submit">Enviar</button>
         <br><br>

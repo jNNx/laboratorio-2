@@ -13,10 +13,10 @@
         <h2>Crear un algoritmo que lea dos números y muestre el mayor de los dos</h2>
         <br>
         <h3>Ingrese un numero A</h3>
-        <input type="number" name="numeroA">
+        <input type="number" name="numeroA" placeholder="Primer numero">
         <br><br>
         <h3>Ingrese un numero B</h3>
-        <input type="number" name="numeroB">
+        <input type="number" name="numeroB" placeholder="Segundo numero">
         <br><br>
         <button type="submit">Enviar</button>
         <br><br>

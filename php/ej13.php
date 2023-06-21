@@ -11,13 +11,13 @@
     <?php include('../navbar-2.html'); ?>
     <form action="../php/ej13.php" method="post">
         <h3>Ingrese la primer nota</h3>
-        <input type="number" name="notaA" min="0">
+        <input type="number" name="notaA" min="0" placeholder="Nota 1">
         <br><br>
         <h3>Ingrese la segunda nota</h3>
-        <input type="number" name="notaB" min="0">
+        <input type="number" name="notaB" min="0" placeholder="Nota 2">
         <br><br>
         <h3>Ingrese la tercer nota</h3>
-        <input type="number" name="notaC" min="0">
+        <input type="number" name="notaC" min="0" placeholder="Nota 3">
         <br><br>
         <button type="submit">Enviar</button>
         <br><br>

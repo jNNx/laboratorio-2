@@ -11,14 +11,15 @@
     <?php include('../navbar-2.html'); ?>
     <form action="../php/ej12.php" method="post">
         <h2>Dado 3 números mostrar la suma, resta, el producto y el cociente si son positivos</h2>
+        <br>
         <h3>Ingrese el primer número</h3>
-        <input type="number" name="numeroA" min="0">
+        <input type="number" name="numeroA" min="0" placeholder="Primer numero">
         <br><br>
         <h3>Ingrese el segundo número</h3>
-        <input type="number" name="numeroB" min="0">
+        <input type="number" name="numeroB" min="0" placeholder="Segundo numero">
         <br><br>
         <h3>Ingrese el tercer número</h3>
-        <input type="number" name="numeroC" min="0">
+        <input type="number" name="numeroC" min="0" placeholder="Tercer numero">
         <br><br>
         <button type="submit">Enviar</button>
         <br><br>
