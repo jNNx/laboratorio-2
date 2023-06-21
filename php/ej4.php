@@ -32,6 +32,9 @@
             echo "El resultado del producto de los numeros A = " .$numA. " y B = " .$numB. " es: " .$producto;
         }
         include('../footer.html'); ?>
+        <script type="text/javascript">
+            document.oncontextmenu = new Function("return false");
+        </script>
     </form>
 </body>
 </html>

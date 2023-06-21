@@ -35,6 +35,7 @@ form button
     text-transform: uppercase;
     color: aliceblue;
     padding: 5px;
+    cursor: pointer;
 }
 
 body div

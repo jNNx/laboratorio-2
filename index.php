@@ -12,7 +12,9 @@
 
         <?php include('./navbar.html');?>
         <?php include('./footer.html'); ?>
-
+        <script type="text/javascript">
+        document.oncontextmenu = new Function("return false");
+        </script>
 </form>
 </body>
 
