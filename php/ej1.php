@@ -37,9 +37,6 @@
                     echo "El resultado de la operacion A+B-C+100 = " . $suma;
                 }
             include('../footer.html'); ?>
-            <script type="text/javascript">
-                document.oncontextmenu = new Function("return false");
-            </script>
     </form>
     </body>
     
